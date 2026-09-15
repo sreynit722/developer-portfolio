@@ -1,0 +1,102 @@
+*{
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+.profile {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 15px;
+  background: #f5f5f5;
+}
+
+.profile h1 {
+  margin-bottom: 15px;
+}
+
+.profile p {
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
+.profile-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+
+.profile-title {
+  color: #6b7280;
+  margin: 0 0 4px;
+  font-weight: 600;
+}
+
+.profile-location {
+  color: #9ca3af;
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+section-heading li {
+  text-align: start;
+}
+
+.section-heading {
+  font-size: 16px;
+  margin: 20px 0 8px;
+  text-align: left;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.skill-chip {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+}
+
+.social-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.badge--open {
+  color: #065f46;
+  background-color: #d1fae5;
+}
+
+.badge--busy {
+  color: #374151;
+  background-color: #e5e7eb;
+}
