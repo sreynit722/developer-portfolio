@@ -1,4 +1,3 @@
-import { useState } from "react";
 // import heroImg from "./assets/hero.png";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "./assets/vite.svg";
@@ -47,7 +46,7 @@ function SocialLinks({ github, linkedin, website }) {
 
 function App() {
 
-  const isAvailable = true;
+  const isAvailable = false; 
 
   const name = "Poch Sreynich";
   const goal = "I’m learning React and developing my backend skills to become a full-stack developer. My goal is to create complete products in the future and use my skills to solve real-world problems.";
